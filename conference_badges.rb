@@ -25,10 +25,10 @@ def assign_rooms(arr_speakers)
 end
 
 def printer(attendees)
-  batch_badge_creator(attendees).each do |greeting|
-    puts greeting
+  batch_badge_creator(attendees).each do |personalized_greeting|
+    puts personalized_greeting
   end
-  assign_rooms(attendees).each do |rooms|
-    puts rooms
+  assign_rooms(attendees).each do |room_number_message|
+    puts room_number_message
   end
 end
